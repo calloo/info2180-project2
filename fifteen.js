@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     let puzzleSection = $("#puzzlearea").children();
     let emptyslot = [300, 300];
     let images = ['Batman', 'Green Lantern', 'Spiderman', 'Superman', 'Wolverine'];
@@ -11,7 +12,6 @@ $(document).ready(function () {
     let shuffleButton = $("#shufflebutton");
 
     function setup(path) {
-
         $(".victory").remove();
 
         scale_x = 0;
