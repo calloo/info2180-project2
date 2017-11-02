@@ -11,6 +11,7 @@ $(document).ready(function () {
     let shuffleButton = $("#shufflebutton");
 
     function setup(path) {
+
         $(".victory").remove();
 
         scale_x = 0;
